@@ -1,6 +1,7 @@
 import React from "react";
-
-function About() {
+import { image } from "../data/user";
+// Alternative way to dweet
+export default function About() {
   return (
     <div id="about">
       <h2>About Me</h2>
